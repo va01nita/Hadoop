@@ -16,6 +16,12 @@
     displays date with day and time & timezone
 #### cd <dir>:
     to change directory
+#### cat <filename>:
+    to see contents of the specified file
+#### cat <filename1> > <filename2>:
+    copies contents of the specified file1 into file2
+#### cat <filename> >> <filename2>:
+    appends contents of the specified file1 into file2
 #### cd ..:
     to go previous or down by one level
 #### cd -:
@@ -60,4 +66,10 @@
     -r: reverse order while sorting
 #### touch <filename>:
     creates empty file
+#### tac <filename>:
+    writes each file to std output,last line first
+#### tree:
+     defines/desplays tree structure of the directory
+#### sudo apt-get install:
+    to install package/software/command/etc
 
