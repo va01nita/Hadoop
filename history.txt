@@ -1,0 +1,37 @@
+    1  clear
+    2  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    3  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    4  nano ~/.zshrc
+    5  bash
+    6  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    7  nano ~/.zshrc
+    8  bash
+    9  ls
+   10  ll
+   11  la
+   12  cd vanita
+   13  ls
+   14  la
+   15  exit
+   16  la
+   17  cd vanita
+   18  la
+   19  cp .zshrc /home/prashant/.zshrc
+   20  cp .zshrc.pre-oh-my-zsh /home/prashant/.zshrc.pre-oh-my-zsh
+   21  exit
+   22  clear
+   23  cd ..
+   24  cd vanita
+   25  la
+   26  cd ..
+   27  cd vanita
+   28  la
+   29  nano ~/.zshrc
+   30  cat  ~/.zshrc
+   31  ls
+   32  nano
+   33  nano ~/.zshrc
+   34  sudo su prashant
+   35  history
+   36  cd Desktop
+   37  mkdir linux
