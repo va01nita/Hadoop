@@ -1,42 +1,42 @@
 
-#Basic Linux Commands
-##Who:
+# Basic Linux Commands
+#### Who:
     shows who logged on in detail
 
-##Whoami:
+#### Whoami:
     shows username who logged on
 
-##sudo su <username>:
+#### sudo su <username>:
     switch user
 
-##exit:
+#### exit:
     exits from user back
 
-##uname:
+#### uname:
     print certain system information
 
-##uptime:
+#### uptime:
     shows time since system is switched on
 
-##date: 
+#### date: 
     displays date with day and time & timezone
 
-##cd <dir>:
+#### cd <dir>:
     to change directory
 
-##cd ..:
+#### cd ..:
     to go previous or down by one level
 
-##cd -:
+#### cd -:
     to go to home level
 
-##cp <src> <destn>:
+#### cp <src> <destn>:
     for copy purpose
 
-##ls: 
+#### ls: 
     to display files in present dir
 
-##ll:
+#### ll:
     to display all the files with hidden also in present dir. Following info also displayed:
     -Filetype
     -user permissions
@@ -49,24 +49,29 @@
     -date and time
     -file name
 
-##ll >filename:
+#### ll >filename:
     copies selected portion from terminal to specified filename
 
-##mkdir:
+#### mkdir:
     to create new directory
 
-##pwd:
+#### pwd:
     present working directory
 
-##rmdir <dirname> -r:
+#### rmdir <dirname> -r:
     removes directory completely (r-recursive) 
 
-## rm <filename>/<dirname>:
+#### rm <filename>/<dirname>:
     removes file/directory even if not empty
 
-## mkdir -p A/B/C/1:
+#### mkdir -p A/B/C/1:
     -p: no error if exists and creates parent with child directories
     makes directory structure as given
 
-##nano <filename>:
+#### nano <filename>:
     opens/creates file with editor in terminal
+    
+#### ls-ltr:
+    -l: uses long listing format
+    -t: sort by time, newest first
+    -r: reverse order while sorting
