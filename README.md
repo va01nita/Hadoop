@@ -66,4 +66,5 @@ Hadoop is data management tool
     -Node manager
 
 #### Hadoop Master slave architecture
-![image](https://www.researchgate.net/figure/Master-slave-architecture-of-Hadoop-cluster_fig18_292993768)
+![Screenshot from 2023-03-07 18-41-28](https://user-images.githubusercontent.com/114601823/223432066-b7d0d303-0832-48e8-8e3f-a32ec2f63836.png)
+
